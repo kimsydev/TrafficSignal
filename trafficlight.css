@@ -1,0 +1,40 @@
+   body {
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+  }
+
+  #trafficlight {
+    border: 1px black solid;
+    padding: 75px;
+    z-index: -1;
+    background-color: black;
+    border-radius: 17%;
+  }
+
+#red {
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px dimgray;
+  }
+
+#yellow {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px dimgray;
+  }
+
+#green {
+    background: green;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px dimgray;
+  }
